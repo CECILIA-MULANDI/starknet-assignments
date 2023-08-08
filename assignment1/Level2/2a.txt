@@ -1,0 +1,5 @@
+WHAT IS STARKNET, AND WHAT TECHNOLOGIES DOES IT LEVERAGE FOR SCALABILITY, PRIVACY, AND SECURITY?
+
+-StarkNet is a Layer 2 permissionless network.
+-It is a solution for Ethereum
+-It leverages the power of  zk-STARKs technology for scalability, privacy, and security. 

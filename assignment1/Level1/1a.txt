@@ -1,0 +1,6 @@
+WHAT IS CAIRO DESIGNED FOR, AND WHAT MAKES ITS PROCESSOR UNIQUE?
+
+-It is designed for writing provable programs./a programming language designed for a virtual CPU of the same name
+-It produces a trace that can then be sent to a trustless prover, which generates a STARK proof for the validity of the statement or computation represented by the Cairo program.
+-The proof can then be verified using a verifier (which may or may not be on-chain).
+-The unique aspect of this processor is that it was not created for the physical constraints of our world but for cryptographic ones, making it capable of efficiently proving the execution of any program running on it.

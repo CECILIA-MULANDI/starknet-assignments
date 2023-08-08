@@ -1,0 +1,4 @@
+WHAT IS STARKWARE, AND WHAT HAVE BEEN ITS KEY INNOVATIONS IN THE BLOCKCHAIN INDUSTRY?
+-Starkware is a technology company in the blockchain industry that focuses on developing and deploying zk-STARK technology. 
+-StarkEx  and Cairo (a programming language optimized for writing efficient STARK proofs) have been its key innovation
+

@@ -1,0 +1,4 @@
+HOW DOES CAIRO'S VIRTUAL CPU HANDLE CRYPTOGRAPHIC CONSTRAINTS, AND WHAT ADVANTAGE DOES THIS OFFER?
+
+-It efficiently proves the execution of any program running on it. 
+-This means that you can perform time consuming operations on a machine you don't trust, and check the result very quickly on a cheaper machine. 

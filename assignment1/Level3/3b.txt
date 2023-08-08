@@ -1,0 +1,7 @@
+HOW DOES STARKEX LEVERAGE STARK PROOFS TO ENSURE THE VALIDITY OF LARGE BATCHES OF TRANSACTIONS OFF-CHAIN WITH A MINIMAL ON-CHAIN FOOTPRINT?
+
+
+
+-The off-chain Prover processes large batches of transactions and generates a STARK proof. 
+-The on-chain Verifier checks the STARK proof in a few computational steps. 
+-This enables massive scaling off-chain, where we process large computations whose integrity is then enforced on-chain with minimal computation.

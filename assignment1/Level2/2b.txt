@@ -1,0 +1,6 @@
+How does Starknet function as a Layer-2 scalability solution for Ethereum, and what cryptographic systems does it HOW DOES STARKNET FUNCTION AS A LAYER-2 SCALABILITY SOLUTION FOR ETHEREUM, AND WHAT CRYPTOGRAPHIC SYSTEMS DOES IT USE TO REDUCE COMPUTATION COSTS?use to reduce computation costs?
+
+
+-In terms of scalability- it uses stark provers to prove large volumes of transactions
+-It uses STARKS  to achieve decreased computation cost
+
