@@ -15,7 +15,8 @@ fn calculate_average(arr:@Array<u32>)->u32{
         res=res+*arr[i];
         i=i+1;
         
-    };
+           
+};
     res/lengtharr
     
 
@@ -23,11 +24,14 @@ fn calculate_average(arr:@Array<u32>)->u32{
 
 fn main(){
     let mut average = ArrayTrait::<u32>::new();
-   
+    
     // mutate the array
-    average.append(5);
-    average.append(3);
+    
     average.append(6);
+    average.append(6);
+   
     let res_average=calculate_average(@average);
     res_average.print();
 }
+
+
