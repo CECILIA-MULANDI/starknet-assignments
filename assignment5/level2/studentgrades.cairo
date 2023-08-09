@@ -14,12 +14,12 @@
 
 
 use dict::Felt252DictTrait;
-
+// we first insert then get the value
 fn get_student_grade(name:felt252)->u64{
     let mut student_grades:Felt252Dict<u64> = Default::default();
-    student_grades.insert('Alex',85);
-    student_grades.insert('Maria',85);
-    student_grades.insert('John',85);
+    student_grades.insert('Alex',25);
+    student_grades.insert('Maria',79);
+    student_grades.insert('John',40);
     let mut studentdatum=student_grades.get(name);
     studentdatum
 
@@ -28,9 +28,6 @@ fn get_student_grade(name:felt252)->u64{
     
 }
 fn main()-> u64{
-    
-
-    
     let mut result=get_student_grade('Alex');
     result
 
